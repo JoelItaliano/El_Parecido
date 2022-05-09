@@ -1,0 +1,16 @@
+.tres{
+    background-image: url(../../IMG/dron.png);
+    background-size: cover;
+}
+
+.descrip__3{
+    align-self: center;
+    margin-left: 55%;
+}
+
+@media screen and (max-width: 580px){
+    .descrip__3{
+        align-self: flex-end;
+        margin: 0 0 1.2rem 0;
+    }
+}

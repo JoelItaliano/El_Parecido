@@ -1,0 +1,15 @@
+.footer__padre{
+    width: 940px;
+    background-color: #fafafa;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 580px){
+    .footer__padre{
+        width: 100vw;
+        flex-direction: column;
+        
+    }
+}

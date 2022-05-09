@@ -1,0 +1,8 @@
+.nav{
+    background: #FEFE00;
+    font-size: 1.3rem;
+    padding: 0.4rem;    
+    width: 100vw;
+    position: relative;
+    z-index: 10;
+}

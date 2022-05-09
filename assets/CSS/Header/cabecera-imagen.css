@@ -1,0 +1,14 @@
+.cabecera__imagen{
+    width: 13rem;
+    filter: drop-shadow(-15px 5px 4px #000);	/*agrega sombra a un png*/
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 580px){
+    .cabecera__imagen{
+        width: 14rem;
+        margin: 0 auto;
+
+    }
+
+}

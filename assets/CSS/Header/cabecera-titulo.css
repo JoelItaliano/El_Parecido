@@ -1,0 +1,32 @@
+.cabecera__titulo{
+    color: #FEFE00;
+    
+}
+
+.cabecera__titulo h1{
+   font-family: Bevan, sans-serif;
+    font-size: 4rem;
+    margin-bottom: -0.90rem;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -16px 4px 12px #000;/*borde*/
+    
+}
+.cabecera__titulo p{
+    font-family: Lato;
+    font-size: 3.15rem;
+    font-weight: bold;
+    text-shadow: -1.5px -1.5px 1px #000, 1.5px 1.5px 1px #000, -1.5px 1.5px 1px #000, 1.5px -1.5px 1px #000, -8px 2px 3px #000;/*Borde */
+    text-decoration: underline;    
+}
+
+@media screen and (max-width: 580px){
+    .cabecera__titulo h1{
+        font-size: 2.7rem;
+        margin-top: 0.8rem;
+        margin-bottom: -0.5rem;
+    }
+    
+    .cabecera__titulo p{
+        font-size:2.2rem;
+    }
+
+}

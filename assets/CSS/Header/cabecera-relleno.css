@@ -1,0 +1,18 @@
+.cabecera__relleno{
+    width: 940px;
+    height: 100%;
+    display: flex;    
+    align-items: center;
+    column-gap: 5.5rem;  
+}
+
+@media screen and (max-width: 580px){
+    .cabecera__relleno{
+        
+        flex-direction: column;
+        justify-content: center; 
+        column-gap: 0.5rem;    
+        padding: 1rem;
+    }
+
+}

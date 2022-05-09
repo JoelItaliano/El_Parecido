@@ -1,0 +1,21 @@
+.footer{
+    width: 100vw;   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;  
+    flex-direction: column; 
+}
+
+.footer__pie{
+    height: 1.5rem;
+    width: 940px;
+    background-color: #FEFE00;    
+    text-align: center;
+}
+
+@media screen and (max-width: 580px){
+    .footer__pie{
+        width: 100vw;
+    }
+}
+

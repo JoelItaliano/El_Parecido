@@ -1,0 +1,16 @@
+.dos{
+    background-image: url(../../IMG/trigo.png);
+    background-size: cover;
+}
+
+.descrip__2{
+    align-self: center;
+    margin-right: 55%;
+}
+
+@media screen and (max-width: 580px){
+    .descrip__2{
+        align-self: flex-end;
+        margin: 0 0 1.2rem 0;
+    }
+}
